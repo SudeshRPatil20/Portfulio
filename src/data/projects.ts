@@ -115,6 +115,18 @@ export const projectsData: ProjectType[] = [
     demo: 'https://langchain-practice-projects-zkkzyt5rptja3x9kvfpgm5.streamlit.app/',
     isPublic: true
   },
+   {
+    id: 'YouTube & URL Text Summarizer',
+    title: 'YouTube & URL Text Summarizer',
+    shortDescription: 'A smart tool that extracts and summarizes key content from YouTube videos and web pages, providing concise, relevant insights from lengthy sources.',
+    fullDescription: 'This tool automatically extracts transcripts from YouTube videos or scrapes readable content from URLs, then uses advanced language models to generate concise, accurate summaries. Ideal for quickly understanding long videos, articles, or blogs without watching or reading the full content.',
+    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.analyticsvidhya.com%2Fblog%2F2022%2F01%2Fyoutube-summariser-mini-nlp-project%2F&psig=AOvVaw0PkCuCedLUoTx5P0oATHk1&ust=1749581632197000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCHy9iB5Y0DFQAAAAAdAAAAABAE',
+    tags: ['LLM', 'NLP','LangChain'],
+    techStack: ['Python','Langchain','Stremlit','GROQ','Gemma2','Ollama'],
+    github: 'https://github.com/SudeshRPatil20/langchain-practice-projects/tree/main/Text_summerization',
+    demo: 'https://langchain-basic-project-4uq33mwh6xbgaogjcnbgeu.streamlit.app/',
+    isPublic: true
+  },
   {
     id: 'cnn-image-classifier',
     title: 'CNN Image Classifier',
